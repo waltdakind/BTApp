@@ -26,7 +26,7 @@ app.use(methodOverride());
 
 // Routes
 // ------------------------------------------------------
- require('./app/routes.js')(app);
+ require('./routes/router.js')(app);
 
 // Listen
 // -------------------------------------------------------
